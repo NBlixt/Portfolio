@@ -1,0 +1,7 @@
+These are the following versions of modules/packages that were used when I created clinical_trial_data_retrieval.
+
+Python==3.7.3
+Pandas==0.23.4
+Numpy==1.15.4
+BeautifulSoup4==4.6.3
+SQLite==3.26.0
