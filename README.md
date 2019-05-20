@@ -3,4 +3,4 @@ This repository includes short descriptions and links to programs I have written
 
 
 # Clinical Trial Data Retrieval:
-This project identifies clinical trials and treatments that result in higher reported occurrences of neuropathy-related adverse events.  BeautifulSoup is used to scrape clinical trial data, Pandas and Numpy are used to organize the parsed information, and SQLite is used to query the information to select specific trials and treatment for further investigation.  
+This [project](https://github.com/NBlixt/Portfolio/blob/master/Clinical%20Trial%20Data%20Retrieval/README.md) identifies clinical trials and treatments that result in higher reported occurrences of neuropathy-related adverse events.  BeautifulSoup is used to scrape clinical trial data, Pandas and Numpy are used to organize the parsed information, and SQLite is used to query the information to select specific trials and treatment for further investigation.  
