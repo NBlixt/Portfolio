@@ -1,3 +1,6 @@
+# Jupyter Notebook
+[Clinical Trial Date Retrieval](https://github.com/NBlixt/Portfolio/blob/master/Clinical%20Trial%20Data%20Retrieval/clinical_trial_data_retrieval.ipynb)
+
 # Goal
 The goal of this project is to identify clinical trials and the treatment arms within the trials in which a higher percentage of participants (minimum 25%) report experiencing neuropathy-related adverse events.  This is an initial portion of a larger project that attempts to determine how genetics increase or decrease susceptibility to neuropathy-related adverse events. 
 
