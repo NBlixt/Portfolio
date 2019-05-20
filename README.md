@@ -3,4 +3,4 @@ This repository includes short descriptions and links to programs I have written
 
 
 # Clinical Trial Data Retrieval:
-In this module I created functions to parse numerous clinical trials and return pertinent information.  Ultimately, I was interested in which therapies caused an adverse side effect termed neuropathy or peripheral neuropathy.  To find this information in the hundreds of clinical trials on multiple myeloma I made use of the BeautifulSoup package to parse HTML text, Pandas and Numpy libraries to organize the parsed data, and ???
+This project identifies clinical trials and treatments that result in higher reported occurrences of neuropathy-related adverse events.  BeautifulSoup is used to scrape clinical trial data, Pandas and Numpy are used to organize the parsed information, and SQLite is used to query the information to select specific trials and treatment for further investigation.  
