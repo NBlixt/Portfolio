@@ -9,8 +9,13 @@ The overall process for this project involves scraping clinical trials to obtain
 
 More specifically:
     1) Scrape all the provided .xml files to create a DataFrame containing trial number (NCT ID), trial start and end dates, enrollment, and more basic information.
+    
     2) Filter trials that report lower than 25 percent of participants in all treatment arms experiencing neuropathy-related adverse events.
+    
     3) Use the remaining trials to create another DataFrame reporting the percentage of participants reporting each type of neuropathy-related adverse event indexed by trial number(NCT ID) and treatment-arm number.
+    
     4) Create a final DataFrame showing each treatment for all arms of every study.
+    
     5) Add all DataFrames as separate tables to an SQLite database.
+    
     6) Query the database to obtain treatments and NCT ID values from each treatment with reported neuropathy-related adverse events above 25 percent.
