@@ -22,3 +22,7 @@ More specifically:
 5) Add all DataFrames as separate tables to an SQLite database.
     
 6) Query the database to obtain treatments and NCT ID values from each treatment with reported neuropathy-related adverse events above 25 percent.
+
+
+# Future Work
+Depending on how the information is reported, I plan to modify this project to provide more accurate treatments when reported inconsistently on clinicaltrials.gov.
