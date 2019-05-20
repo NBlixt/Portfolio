@@ -8,6 +8,7 @@ The data for this project includes .xml files downloaded from [clinicaltrials.go
 The overall process for this project involves scraping clinical trials to obtain percentages of neuropathies reported for each treatment arm in each trial and storing this and other data in a SQLite database.  Then querying the database to obtain treatments and trial numbers that resulted in higher than 25 percent of participants reporting neuropathy-related adverse events.  
 
 More specifically:
+
     1) Scrape all the provided .xml files to create a DataFrame containing trial number (NCT ID), trial start and end dates, enrollment, and more basic information.
     
     2) Filter trials that report lower than 25 percent of participants in all treatment arms experiencing neuropathy-related adverse events.
