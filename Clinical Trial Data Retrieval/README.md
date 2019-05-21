@@ -5,7 +5,7 @@
 The goal of this project is to identify clinical trials and the treatment arms within the trials in which a higher percentage of participants (minimum 25%) report experiencing neuropathy-related adverse events.  This is an initial portion of a larger project that attempts to determine how genetics increase or decrease susceptibility to neuropathy-related adverse events. 
 
 # Data
-The data for this project includes .xml files downloaded from [clinicaltrials.gov](https://clinicaltrials.gov/).  Specifically, studies on multiple myeloma that were completed and had results were downloaded in [bulk](https://clinicaltrials.gov/ct2/results?cond=Multiple+Myeloma&term=&cntry=&state=&city=&dist=&Search=Search&recrs=e&rslt=With).
+The data for this project includes .xml files downloaded from [clinicaltrials.gov](https://clinicaltrials.gov/).  Specifically, one notebook focuses on any clinical trial related to [cancer](https://github.com/NBlixt/Portfolio/blob/master/Clinical%20Trial%20Data%20Retrieval/clinical_trial_data_retrieval.ipynb), while a second notebook focuses on trials involving [multiple myeloma](https://github.com/NBlixt/Portfolio/blob/master/Clinical%20Trial%20Data%20Retrieval/clinical_trial_data_retrieval_myeloma.ipynb).
 
 # Process
 The overall process for this project involves scraping clinical trials to obtain percentages of neuropathies reported for each treatment arm in each trial and storing this and other data in a SQLite database.  Then querying the database to obtain treatments and trial numbers that resulted in higher than 25 percent of participants reporting neuropathy-related adverse events.  
