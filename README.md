@@ -2,5 +2,5 @@
 This repository includes short descriptions and links to programs I have written in Python while employed as a post-doctoral researcher.  These programs are all related to research on multiple myeloma.  
 
 
-# Clinical Trial Data Retrieval:
-This [project](https://github.com/NBlixt/Portfolio/tree/master/Clinical%20Trial%20Data%20Retrieval) identifies clinical trials and treatments that result in higher reported occurrences of neuropathy-related adverse events.  BeautifulSoup is used to scrape clinical trial data, Pandas and Numpy are used to organize the parsed information, and SQLite is used to query the information to select specific trials and treatment for further investigation.  
+## bcl2_drug_response
+This file was generated while investigating whether expression levels of pro-sruvival factors in certain types of cancer cell lines would show any correlation to survival after treatment with drugs that target said pro-survival factors.
