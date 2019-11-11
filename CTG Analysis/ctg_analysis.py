@@ -1,9 +1,8 @@
 # Version 3.1
 # This script was designed to work with a single DMSO control and 9 drug doses.
 # Takes an .xls from a CellTiter-Glo assay analyzed on a plate reader
-# and outputs graphs and mean luminescence for each sheet in the .xls.
-# Sheet names should follow the convention "cell_line_drug" where drug
-# is only three letters (amg for amg-176, ven for venetoclax).
+# and outputs graphs for each sheet in the .xls.  Raw data and processed data
+# are stored in separate tables of a PostgreSQL database.  
 
 # Pip Freeze:
 # certifi==2019.9.11
@@ -507,9 +506,6 @@ if __name__ == "__main__":
                             help="The path containing data to be analyzed.")
     args = ctg_parser.parse_args()
     input_path = args.input
-
-    if not input_path:
-        input_path = os.getcwd()
 
     # Process data
     while True:
